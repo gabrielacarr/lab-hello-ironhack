@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './Welcome'
 
 class App extends React.Component {
 
@@ -9,6 +10,7 @@ class App extends React.Component {
       
       <>
       Can you see me now?
+      <Welcome/>
       </>
     )
   }
