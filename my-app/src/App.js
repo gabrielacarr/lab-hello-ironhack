@@ -11,8 +11,9 @@ class App extends React.Component {
       
       <>
       <h1>Can you see me now?</h1>
+      
       <Welcome name="Brie"/>
-      <Goodbye name="a loser" title="learning"/>
+      <Goodbye name="ReactJS" title="learning"/>
       </>
     )
   }

@@ -6,6 +6,7 @@ class Welcome extends Component {
         return (<>
 
             <h2> Hello, my name is {this.props.name}.</h2>
+            
         </>
         )
     }
