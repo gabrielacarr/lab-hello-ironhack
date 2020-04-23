@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome'
+import Goodbye from './Goodbye'
 
 class App extends React.Component {
 
@@ -9,8 +10,9 @@ class App extends React.Component {
     return (
       
       <>
-      Can you see me now?
-      <Welcome/>
+      <h1>Can you see me now?</h1>
+      <Welcome name="Brie"/>
+      <Goodbye name="a loser" title="learning"/>
       </>
     )
   }
